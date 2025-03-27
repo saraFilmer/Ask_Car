@@ -1,0 +1,469 @@
+.error {
+    color: red;
+    display: flex; 
+    justify-content: center;
+}
+
+.nav {
+    position: sticky;
+    top: 0%;
+    width: 100vw;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    background-color: #00ff1e;
+    justify-content: center;
+   
+}
+
+
+.link {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    text-decoration: none;
+    
+}
+
+.userName{
+    color: rgb(2, 2, 2);
+    font-size: 2rem;
+    margin: 0 1rem;
+    align-self: flex-start;
+}
+
+.filter{ 
+    
+    height: 1rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0.75rem;
+    justify-content: center;
+}
+
+
+.filterItem{
+    font-size: 1.5rem;
+}
+
+.active {
+    color: rgb(0, 0, 0);
+}
+
+.product {
+    border: double 5px red;
+    width: 10vw;
+    height: 10vw;
+}
+
+#username {
+    color: white;
+    font-size: 1rem;
+    margin-left: 1vw;
+    justify-self: start;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    background-color: black;
+    justify-content: center;
+}
+
+.newCust{
+    background-color: white;
+    color: #000000;
+
+}
+
+.images{
+    display: grid;     
+    gap: 70px;        
+    grid-template-columns: repeat(3,minmax(300px,700px));
+    justify-content: center;
+    /* לסדר את הפריטים באמצע */
+    align-items: center;  
+    justify-items: center;
+
+   
+}
+
+.car{
+       /* גבול הוריד מסגרת */
+       border-style: solid;  
+         /* רוחב מסגרת לבנה */
+      border-width: 0.ch;        
+      border-color: white;
+      /* רוויחים */
+      /* margin: auto;*/
+      /* מסדר גלריה   */
+      margin: 3% 3% 3%;
+      width:300px;
+      height: 360px;
+       
+      /*  מהירות בגלריה הוזיז לרוחב */
+      transition: width 1s;          
+}
+
+.p{
+    color: #00ff1e;
+    
+}
+
+.t{
+    color: red;
+    
+}
+
+.img{
+    width: 300px;
+    height: auto;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 4px 8px  #00ff1e;
+}
+
+.product-card button {
+    margin-top: 8px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #00ff1e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color:  #00ff1e;
+}
+
+.product-details {
+    margin-top: 16px;
+    text-align: left;
+}
+
+.pirsomet{
+    max-width: 700px;
+    height: auto;
+}
+
+.optionS{
+    display: inline-flex;
+    top: 10%;
+    align-items: center;  
+    justify-items: center;
+}
+
+.Input{
+
+    align-items: center;   
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* Full height container with flexbox for centering */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f2f5;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Title styling */
+h1 {
+    color: #00ff1e;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+/* Button container styling */
+.button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    text-align: center;
+    justify-self:center;
+    align-items: center;   
+
+}
+
+/* Button styling */
+.nav-button {
+    background:  #00ff1e;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background 0.3s, transform 0.3s;
+    text-transform: uppercase;
+}
+
+.nav-button:hover {
+    background: #00ff1e;
+    transform: scale(1.05);
+}
+
+.nav-button:focus {
+    outline: none;
+}
+
+.input-container {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px  #000000;
+    background-color: #f9f9f9;
+}
+
+.input-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #00ff1e;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submit-button:hover {
+    background-color: #00ff1e;
+}
+
+
+.filter-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 15px;
+    padding: 20px;
+    background: linear-gradient(135deg, #f7f7f7 0%, #d3d3d3 100%);
+    border-radius: 10px;
+  }
+  
+  .filter-item {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .filter-item:hover {
+    border-color:  #00ff1e;
+    box-shadow: 0 4px 8px  #00ff1e;
+  }
+  
+  /* Car */
+  .product-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px #00ff1e;
+    overflow: hidden;
+    width: 300px;
+    margin: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px #00ff1e;
+  }
+  
+  .car-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+  }
+  
+  .product-info {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .rent-button {
+    background-color:  #00ff1e;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .rent-button:hover {
+    background-color: #00ff1e;
+  }
+  
+  .status-available {
+    color: #00ff1e;
+    font-weight: bold;
+  }
+  
+  .status-unavailable {
+    color: #dc3545;
+    font-weight: bold;
+  }
+  
+  .toggle-details {
+    background-color: #f8f9fa;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .toggle-details:hover {
+    color: #00ff1e;
+  }
+  
+  .product-details {
+    padding: 15px;
+    border-top: 1px
+  
+  }  
+
+  body {
+    background-color: #f6f6f9;
+    margin: 0;
+    padding: 0;
+    color: #010101;
+  }
+  
+  input, button {
+    border: none;
+    outline: none;
+    border-radius: 8px;
+  }
+  
+  /* SignIn Styles */
+  .Input {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px #000000;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .Input:hover {
+    box-shadow: 0 12px 24px #00ff1e;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #00ff1e;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .label {
+    display: block;
+    font-size: 16px;
+    margin: 10px 0 5px;
+    color:  #00ff1e;
+  }
+  
+  input {
+    width: calc(100% - 24px);
+    padding: 12px;
+    font-size: 16px;
+    color:  #000000;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #00ff1e;
+    background-color: #fff;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #00ff1e;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #00ff1e;
+    transform: scale(1.05);
+  }
+  
+  .error {
+    color: #dc3545;
+    font-size: 14px;
+    margin: 5px 0;
+    text-align: center;
+  }
+  
+  input::placeholder {
+    color: #000000;
+  }
+
+
+  * styles.css */
+.spinner {
+  border: 8px solid rgba(0, 0, 0, 0.1); /* צבע הרקע של הסיבוב */
+  border-radius: 50%; /* הופך את הגבולות לעיגול */
+  border-top: 8px solid #00ff1e; /* צבע החלק העליון של הסיבוב */
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite; /* אפקט הסיבוב */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.about-footer {
+  text-align: center;
+  padding: 10px;
+  background: #333;
+  color: white;
+}
+  
